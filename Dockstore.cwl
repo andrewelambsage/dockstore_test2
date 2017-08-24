@@ -21,10 +21,11 @@ inputs:
 
   output:
     type: string
-    default: ./output.txt
+    default: "./output.txt"
     doc: "output file arg"
     inputBinding:
       position: 2
+      prefix: --output
 
 outputs:
   text_file:
